@@ -14,8 +14,8 @@ It implements:
 
 #Features
  #Authentication & Authorization
-  -Secure JWT-based authentication
-  -Role-based access control: ROLE_USER, ROLE_ADMIN
+  - Secure JWT-based authentication
+  - Role-based access control: ROLE_USER, ROLE_ADMIN
 
 #User Management Operations
 Endpoint	Method	Description	Access
@@ -36,9 +36,9 @@ Endpoint	Method	Description	Access
 #Setup Instructions
 
 #Prerequisites Ensure you have:
-  -Java 17+
-  -Maven
-  -MySQL Server running
+  - Java 17+
+  - Maven
+  - MySQL Server running
 
 #Clone Repository
   git clone https://github.com/rajpatil07-git/user-service
@@ -61,14 +61,14 @@ cd user-service
 
 #Testing the Application
 
-1.Start MySQL and ensure database userdb exists.
-2.Run the Spring Boot backend (http://localhost:8080).
-3.Use tools like Postman or curl to interact with the endpoints:
-4.Register a new user (default role = ROLE_USER)
-5.Login with credentials to receive a JWT token.
-6.Use the token for authorized requests to /api/users endpoints.
-  i.Normal users can view their profile (/users/{id})
- ii.Admin users can view all users (/users) or delete users.
+1. Start MySQL and ensure database userdb exists.
+2. Run the Spring Boot backend (http://localhost:8080).
+3. Use tools like Postman or curl to interact with the endpoints:
+4. Register a new user (default role = ROLE_USER)
+5. Login with credentials to receive a JWT token.
+6. Use the token for authorized requests to /api/users endpoints.
+  i. Normal users can view their profile (/users/{id})
+ ii. Admin users can view all users (/users) or delete users.
 
 Author
 Raj Patil
